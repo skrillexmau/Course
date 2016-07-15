@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css">
+	<link rel="stylesheet" href="img">
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Cursos</title>
+</head>
+<body>
+<header>
+	<nav>
+		<div class="nav-wrapper white">
+			<a href="#!" class="brand-logo center black-text">GDG UNAM</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="left hide-on-med-and-down">
+				<li>
+					<a href="sass.html" class="green darken-4">Quienes somos</a>
+				</li>
+				<li>
+					<a href="badges.html" class="amber accent-3">Integrantes</a>
+				</li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="collapsible.html" class="blue accent-2">Cursos</a>
+				</li>
+				<li>
+					<a href="mobile.html" class="red darken-3">Contacto</a>
+				</li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li>
+					<a href="sass.html">Quienes somos</a>
+				</li>
+				<li>
+					<a href="badges.html">Integrantes</a>
+				</li>
+				<li>
+					<a href="collapsible.html">Cursos</a>
+				</li>
+				<li>
+					<a href="mobile.html">Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="parallax-container">
+    	<div class="parallax">
+			<img src="img/gdg.png">
+    	</div>
+    </div>
+    <div class="section blue accent-2">
+		<div class="row container">
+			<h2 class="header grey-text text-lighten-4">¿Quienes somos?</h2>
+			<p class="white-text">
+				Somos parte de  un grupo de desarrolladores de Google en la UNAM, que nos interesa todo lo que tenga que ver con nuevas tecnologías y en especial con las tecnologías de Google.
+			</p>
+		</div>
+	</div>
+	<div class="parallax-container">
+    	<div class="parallax">
+			<img src="img/gdg1.jpg">	
+    	</div>
+    </div>	
+    <div class="section red darken-3">
+		<div class="row container">
+			<h2 class="header grey-text text-lighten-4">Integrantes</h2>
+				<ul class="white-text center">
+					<li>
+						<p>Kevin Loyola</p>
+					</li>
+					<li>
+						<p>David Moranchel</p>
+					</li>
+					<li>
+						<p>Jorge Aguilar</p>
+					</li>
+					<li>
+						<p>Saúl Garcia</p>
+					</li>
+					<li>
+						<p>Erick Mercado</p>
+					</li>
+					<li>
+						<p>Aarón Cervantes</p>
+					</li>
+					<li>
+						<p>
+				</ul>
+		</div>
+	</div>
+
+</main>
+<footer class="page-footer white">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="black-text">Contacto</h5>
+				<p class="black-text">Aquí estarán nuestras redes sociales, para manternernos en contacto con la comunidad</p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="black-text">Redes Sociales</h5>
+				<ul>
+				  <li><a class="black-text" href="#!">Facebook</a></li>
+				  <li><a class="black-text" href="#!">Twitter</a></li>
+				  <li><a class="black-text" href="#!">GitHub</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container center">
+		© 2016 Copyright
+		</div>
+	</div>
+</footer>
+	<!--Import jQuery before materialize.js-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$('.parallax').parallax();
+    	});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$(".button-collapse").sideNav();
+		})
+	</script>
+	<script src="js/init.js"></script>
+</body>
+</html>
